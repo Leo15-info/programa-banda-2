@@ -1,3 +1,40 @@
-body {
+/*
+    padding: 0;
+    margin: 0;
+
+/*body {
     background-color: darkgrey;
+    /*altera a cor de fundo*/
+    
+    /*altera cor do texto do  elemento*/
+
+
+/*ble , tr, td, th{
+    background-color: rgb(227, 241, 241);
+    border: 1px solid black;
+    /*altera 3propriedades de uma vez*/
+   
+
+/* {
+    background-color: grey;
+    color: aliceblue;
 }
+table{
+    width: 50%;
+}*/
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even){background-color: #f2f2f2}
+  
+  th {
+    background-color: #04AA6D;
+    color: white;
+  }
